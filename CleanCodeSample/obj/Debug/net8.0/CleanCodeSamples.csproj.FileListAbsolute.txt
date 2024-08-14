@@ -1,0 +1,12 @@
+/Users/alexpimenta/Projects/DevForge/DevForge-Episode-030-CleanCodeSamples/CleanCodeSample/bin/Debug/net8.0/CleanCodeSamples.deps.json
+/Users/alexpimenta/Projects/DevForge/DevForge-Episode-030-CleanCodeSamples/CleanCodeSample/bin/Debug/net8.0/CleanCodeSamples.dll
+/Users/alexpimenta/Projects/DevForge/DevForge-Episode-030-CleanCodeSamples/CleanCodeSample/bin/Debug/net8.0/CleanCodeSamples.pdb
+/Users/alexpimenta/Projects/DevForge/DevForge-Episode-030-CleanCodeSamples/CleanCodeSample/obj/Debug/net8.0/CleanCodeSamples.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alexpimenta/Projects/DevForge/DevForge-Episode-030-CleanCodeSamples/CleanCodeSample/obj/Debug/net8.0/CleanCodeSamples.AssemblyInfoInputs.cache
+/Users/alexpimenta/Projects/DevForge/DevForge-Episode-030-CleanCodeSamples/CleanCodeSample/obj/Debug/net8.0/CleanCodeSamples.AssemblyInfo.cs
+/Users/alexpimenta/Projects/DevForge/DevForge-Episode-030-CleanCodeSamples/CleanCodeSample/obj/Debug/net8.0/CleanCodeSamples.csproj.CoreCompileInputs.cache
+/Users/alexpimenta/Projects/DevForge/DevForge-Episode-030-CleanCodeSamples/CleanCodeSample/obj/Debug/net8.0/CleanCodeSamples.sourcelink.json
+/Users/alexpimenta/Projects/DevForge/DevForge-Episode-030-CleanCodeSamples/CleanCodeSample/obj/Debug/net8.0/CleanCodeSamples.dll
+/Users/alexpimenta/Projects/DevForge/DevForge-Episode-030-CleanCodeSamples/CleanCodeSample/obj/Debug/net8.0/refint/CleanCodeSamples.dll
+/Users/alexpimenta/Projects/DevForge/DevForge-Episode-030-CleanCodeSamples/CleanCodeSample/obj/Debug/net8.0/CleanCodeSamples.pdb
+/Users/alexpimenta/Projects/DevForge/DevForge-Episode-030-CleanCodeSamples/CleanCodeSample/obj/Debug/net8.0/ref/CleanCodeSamples.dll
