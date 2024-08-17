@@ -24,5 +24,4 @@ public class AvoidUnnecessaryCommentsBad
         // Return the total price
         return totalPrice;
     }
-
 }

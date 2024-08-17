@@ -34,12 +34,13 @@ public class SmallFunctionsBad
         };
 
         // Send confirmation email
-        SendEmail(order.Customer.Email, "Your order has been processed", "Thank you for your purchase. Your total is " + totalAmount);
+        SendEmail(order.Customer.Email, 
+            "Your order has been processed", "Thank you for your purchase. Your total is " 
+            + totalAmount);
     }
 
     private void SendEmail(string email, string subject, string message)
     {
         // Send a e-mail;
     }
-
 }

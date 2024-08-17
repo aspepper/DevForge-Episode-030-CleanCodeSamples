@@ -23,5 +23,4 @@ public class AvoidUnnecessaryComments
     {
         return totalPrice * 0.9m;
     }
-
 }

@@ -11,10 +11,10 @@ public class SmallFunctions
         }
 
         decimal totalAmount = CalculateTotalAmount(order);
-        totalAmount = ApplyDiscountIfEligible(order, totalAmount);
+        totalAmount = ApplyDiscountIfNeened(order, totalAmount);
 
-        var invoice = CreateInvoice(order, totalAmount);
-        SendOrderConfirmationEmail(order.Customer.Email, invoice);
+        var invoice = GenerateInvoice(order, totalAmount);
+        SendOrderConfirmation(order.Customer.Email, invoice);
     }
 
     private bool IsValidOrder(Order order)
@@ -32,7 +32,7 @@ public class SmallFunctions
         return totalAmount;
     }
 
-    private decimal ApplyDiscountIfEligible(Order order, decimal totalAmount)
+    private decimal ApplyDiscountIfNeened(Order order, decimal totalAmount)
     {
         if (order.Customer.IsPremium)
         {
@@ -41,7 +41,7 @@ public class SmallFunctions
         return totalAmount;
     }
 
-    private Invoice CreateInvoice(Order order, decimal totalAmount)
+    private Invoice GenerateInvoice(Order order, decimal totalAmount)
     {
         return new Invoice
         {
@@ -52,14 +52,15 @@ public class SmallFunctions
         };
     }
 
-    private void SendOrderConfirmationEmail(string email, Invoice invoice)
+    private void SendOrderConfirmation(string email, Invoice invoice)
     {
-        SendEmail(email, "Your order has been processed", "Thank you for your purchase. Your total is " + invoice.TotalAmount);
+        SendEmail(email, "Your order has been processed", 
+                "Thank you for your purchase. Your total is " 
+                + invoice.TotalAmount);
     }
 
     private void SendEmail(string email, string subject, string message)
     {
         // Send a e-mail;
     }
-
 }

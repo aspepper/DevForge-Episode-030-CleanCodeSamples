@@ -22,5 +22,4 @@ public class CalculatorBad
         return a / b;
     }
 }
-
 // No tests written for the Calculator class

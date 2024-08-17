@@ -26,5 +26,4 @@ public class MeaningfulNames
     {
         // This method processes a high-value active item.
     }
-
 }

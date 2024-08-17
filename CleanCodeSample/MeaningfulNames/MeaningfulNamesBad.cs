@@ -25,5 +25,4 @@ public class MeaningfulNamesBad
     {
         // Imagine this method processes an item in some way.
     }
-
 }
