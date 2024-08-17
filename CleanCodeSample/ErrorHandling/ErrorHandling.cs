@@ -36,7 +36,7 @@ public class ErrorHandling
             Console.WriteLine($"An error occurred while reading the file: {ex.Message}");
             // Log the error or retry the operation
         }
-        catch (Exception ex)
+        catch (Exception ex) // when (ex.Message.Contains("File not Found"))
         {
             Console.WriteLine($"An unexpected error occurred: {ex.Message}");
             // Log the error or take other appropriate action
